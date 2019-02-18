@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: micro-dev
+---
+spring:
+  profiles: test
+  applcation:
+    name: micro-test
