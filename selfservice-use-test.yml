@@ -1,2 +1,13 @@
 self:
   my: weixing-t
+
+spring:
+  application:
+    name: 'selfservice-use'
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
+  instance:
+    preferIpAddress: true
